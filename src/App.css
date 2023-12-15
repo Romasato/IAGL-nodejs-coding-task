@@ -1,0 +1,59 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.logoWrapper {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    height: 6em;
+    padding: 1.5em;
+    will-change: filter;
+    transition: filter 300ms;
+}
+
+.logo:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+
+.searchForm {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+
+    .searchForm__field {
+        margin-right: 30px;
+    }
+
+    button:disabled {
+        background: gray;
+        cursor: not-allowed;
+    }
+}
+
+.results {
+    padding: 20px 20px;
+    .pricePoint {
+        margin-bottom: 10px;
+
+        background-color: #fff;
+        padding: 16px;
+        position: relative;
+        overflow: visible;
+        border-radius: 2px;
+        box-shadow: 0 2px 4px #0000001a;
+    }
+}
