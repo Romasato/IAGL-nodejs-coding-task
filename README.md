@@ -43,3 +43,14 @@ Please use any NodeJS framework and ReactJS. You may use any libraries and depen
 
 To complete this assessment, you need to deliver the mandatory option and at least one of the Optional ones
 Your finished code should be uploaded to your personal Github account and a link to this sent to the contact person.
+
+
+## Running
+To spin up HTTP and API servers run
+
+```bash
+npm run dev
+```
+
+* API server will start listening on http://localhost:3000/api/ endpoints.
+* The ReactJS app will be available via http://localhost:3001/
